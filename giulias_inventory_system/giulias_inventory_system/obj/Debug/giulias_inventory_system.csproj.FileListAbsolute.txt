@@ -1,0 +1,97 @@
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe.config
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.pdb
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHome.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmLogin.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.Properties.Resources.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.exe
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.pdb
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClients.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProducts.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmUsers.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClientConfiguration.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProfile.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHistory.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmReposrts.resources
+C:\Users\User\Documents\Kwen\p\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmTransaction.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe.config
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.exe
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.pdb
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csprojResolveAssemblyReference.cache
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClientConfiguration.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClients.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHistory.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHome.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmLogin.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProducts.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProfile.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmReposrts.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmTransaction.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmUsers.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.Properties.Resources.resources
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csproj.GenerateResource.Cache
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe
+C:\SYSTEM PROJECTS\projects\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.pdb
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe.config
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.exe
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.pdb
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.pdb
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\MySql.Data.dll
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\MySql.Data.xml
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csprojResolveAssemblyReference.cache
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClientConfiguration.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClients.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHistory.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHome.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmLogin.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProducts.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProfile.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmReposrts.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmTransaction.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmUsers.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.Properties.Resources.resources
+D:\p\projects\Giulias\04-17-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csproj.GenerateResource.Cache
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe.config
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.exe
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.pdb
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.pdb
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\MySql.Data.dll
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\MySql.Data.xml
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csprojResolveAssemblyReference.cache
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClientConfiguration.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClients.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHistory.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHome.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmLogin.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProducts.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProfile.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmReposrts.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmTransaction.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmTransactionsUpdate.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmUsers.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.Properties.Resources.resources
+D:\p\projects\Giulias\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csproj.GenerateResource.Cache
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe.config
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.exe
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.pdb
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csprojResolveAssemblyReference.cache
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClientConfiguration.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmClients.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHistory.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmHome.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmLogin.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProducts.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmProfile.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmReposrts.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmTransaction.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmTransactionsUpdate.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmUsers.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.Properties.Resources.resources
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.csproj.GenerateResource.Cache
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.exe
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\bin\Debug\giulias_inventory_system.pdb
+C:\SYSTEM PROJECTS\projects\06-11-2018\04-25-2018\giulias_inventory_system\giulias_inventory_system\obj\Debug\giulias_inventory_system.frmPasswordChecker.resources
