@@ -28,14 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnBack = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtDismissed = new System.Windows.Forms.TextBox();
-            this.txtStarted = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtSetActiveInactive = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
@@ -45,10 +44,11 @@
             this.lblBookTitle = new System.Windows.Forms.Label();
             this.cmbPosition = new System.Windows.Forms.ComboBox();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.txtDesc = new System.Windows.Forms.RichTextBox();
+            this.txtDescription = new System.Windows.Forms.RichTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnChangePass = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -78,7 +78,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.radInactive = new System.Windows.Forms.RadioButton();
             this.dgvResults = new System.Windows.Forms.DataGridView();
-            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.dtpStarted = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -132,8 +132,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.panel2.Controls.Add(this.dtpStarted);
             this.panel2.Controls.Add(this.txtDismissed);
-            this.panel2.Controls.Add(this.txtStarted);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.txtSetActiveInactive);
             this.panel2.Controls.Add(this.label11);
@@ -141,7 +141,7 @@
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.cmbPosition);
             this.panel2.Controls.Add(this.btnUpdate);
-            this.panel2.Controls.Add(this.txtDesc);
+            this.panel2.Controls.Add(this.txtDescription);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.groupBox1);
@@ -173,16 +173,6 @@
             this.txtDismissed.TabIndex = 95;
             this.txtDismissed.Text = "   ----   --   --";
             // 
-            // txtStarted
-            // 
-            this.txtStarted.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStarted.ForeColor = System.Drawing.Color.DeepPink;
-            this.txtStarted.Location = new System.Drawing.Point(404, 382);
-            this.txtStarted.Name = "txtStarted";
-            this.txtStarted.Size = new System.Drawing.Size(115, 27);
-            this.txtStarted.TabIndex = 85;
-            this.txtStarted.Text = "   ----   --   --";
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -206,6 +196,7 @@
             this.txtSetActiveInactive.TabIndex = 93;
             this.txtSetActiveInactive.Text = "SET INACTIVE";
             this.txtSetActiveInactive.UseVisualStyleBackColor = false;
+            this.txtSetActiveInactive.Click += new System.EventHandler(this.txtSetActiveInactive_Click);
             // 
             // label11
             // 
@@ -281,6 +272,7 @@
             this.cmbPosition.Size = new System.Drawing.Size(263, 27);
             this.cmbPosition.TabIndex = 89;
             this.cmbPosition.Text = "Employee";
+            this.cmbPosition.SelectedIndexChanged += new System.EventHandler(this.cmbPosition_SelectedIndexChanged);
             // 
             // btnUpdate
             // 
@@ -293,16 +285,17 @@
             this.btnUpdate.TabIndex = 88;
             this.btnUpdate.Text = "UPDATE USER";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // txtDesc
+            // txtDescription
             // 
-            this.txtDesc.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDesc.ForeColor = System.Drawing.Color.DeepPink;
-            this.txtDesc.Location = new System.Drawing.Point(33, 481);
-            this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(265, 104);
-            this.txtDesc.TabIndex = 87;
-            this.txtDesc.Text = "ddd";
+            this.txtDescription.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescription.ForeColor = System.Drawing.Color.DeepPink;
+            this.txtDescription.Location = new System.Drawing.Point(33, 481);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(265, 104);
+            this.txtDescription.TabIndex = 87;
+            this.txtDescription.Text = "ddd";
             // 
             // label10
             // 
@@ -342,6 +335,17 @@
             this.groupBox1.TabIndex = 83;
             this.groupBox1.TabStop = false;
             // 
+            // txtPassword
+            // 
+            this.txtPassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.Color.DeepPink;
+            this.txtPassword.Location = new System.Drawing.Point(310, 66);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(263, 27);
+            this.txtPassword.TabIndex = 85;
+            this.txtPassword.Text = "Ever Bilena";
+            // 
             // btnChangePass
             // 
             this.btnChangePass.BackColor = System.Drawing.Color.Crimson;
@@ -353,6 +357,7 @@
             this.btnChangePass.TabIndex = 84;
             this.btnChangePass.Text = "CHANGE PASSWORD";
             this.btnChangePass.UseVisualStyleBackColor = false;
+            this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
             // 
             // label7
             // 
@@ -614,6 +619,7 @@
             this.btnSearch.TabIndex = 24;
             this.btnSearch.Text = "GO";
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // panel12
             // 
@@ -639,6 +645,7 @@
             this.radActive.TabStop = true;
             this.radActive.Text = "ACTIVE";
             this.radActive.UseVisualStyleBackColor = true;
+            this.radActive.CheckedChanged += new System.EventHandler(this.radActive_CheckedChanged);
             // 
             // label1
             // 
@@ -663,6 +670,7 @@
             this.radInactive.TabIndex = 32;
             this.radInactive.Text = "INACTIVE";
             this.radInactive.UseVisualStyleBackColor = true;
+            this.radInactive.CheckedChanged += new System.EventHandler(this.radInactive_CheckedChanged);
             // 
             // dgvResults
             // 
@@ -673,37 +681,40 @@
             this.dgvResults.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvResults.BackgroundColor = System.Drawing.Color.White;
             this.dgvResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightPink;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Pink;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvResults.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.LightPink;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Pink;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvResults.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgvResults.GridColor = System.Drawing.Color.LightPink;
             this.dgvResults.Location = new System.Drawing.Point(3, 318);
             this.dgvResults.MultiSelect = false;
             this.dgvResults.Name = "dgvResults";
             this.dgvResults.ReadOnly = true;
             this.dgvResults.RowHeadersVisible = false;
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Crimson;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Crimson;
-            this.dgvResults.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Crimson;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Crimson;
+            this.dgvResults.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvResults.Size = new System.Drawing.Size(303, 278);
             this.dgvResults.TabIndex = 60;
+            this.dgvResults.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvResults_CellMouseClick);
             // 
-            // txtPassword
+            // dtpStarted
             // 
-            this.txtPassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.ForeColor = System.Drawing.Color.DeepPink;
-            this.txtPassword.Location = new System.Drawing.Point(310, 66);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(263, 27);
-            this.txtPassword.TabIndex = 85;
-            this.txtPassword.Text = "Ever Bilena";
+            this.dtpStarted.CalendarFont = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpStarted.CalendarForeColor = System.Drawing.Color.Black;
+            this.dtpStarted.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.dtpStarted.CalendarTitleForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.dtpStarted.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpStarted.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpStarted.Location = new System.Drawing.Point(404, 381);
+            this.dtpStarted.Name = "dtpStarted";
+            this.dtpStarted.Size = new System.Drawing.Size(115, 25);
+            this.dtpStarted.TabIndex = 97;
             // 
             // frmUsers
             // 
@@ -714,6 +725,7 @@
             this.Name = "frmUsers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmUsers";
+            this.Activated += new System.EventHandler(this.frmUsers_Activated);
             this.Load += new System.EventHandler(this.frmUsers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -755,7 +767,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cmbPosition;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.RichTextBox txtDesc;
+        private System.Windows.Forms.RichTextBox txtDescription;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -781,10 +793,10 @@
         private System.Windows.Forms.Label lblBookTitle;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.TextBox txtDismissed;
-        private System.Windows.Forms.TextBox txtStarted;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button txtSetActiveInactive;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.DateTimePicker dtpStarted;
     }
 }

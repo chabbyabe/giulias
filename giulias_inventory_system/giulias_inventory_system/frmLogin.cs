@@ -160,5 +160,10 @@ namespace giulias_inventory_system
                 sc.CloseConnection();
             }
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

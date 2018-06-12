@@ -237,6 +237,7 @@ namespace giulias_inventory_system
         private void btnBack_Click(object sender, EventArgs e)
         {
             this.Close();
+            home.getUsername(name, user_id, user_priviledge);         //to send data from one place to another
             home.Show();
         }
 
